@@ -43,9 +43,9 @@ while True:
         speak("Opening Instagram, Master!")
         webbrowser.open("https://www.instagram.com/")
     
-    # elif ("open FIFA") in result:
-    #     speak("Opening Matches for FiFa World Cup, Master!")
-    #     webbrowser.open("https://www.google.com/search?sca_esv=96b74448a0106665&hl=en&sxsrf=ANbL-n4Jbc2MLyd46wfhVzucqFiQgAzYdg:1781366910792&q=FIFA+World+Cup+2026+today&spell=1&sa=X&ved=2ahUKEwivtLrvzISVAxXnCTQIHVbZBQ4QBSgAegQIEBAB&biw=768&bih=826&dpr=1.25")
+    elif ("open fifa") in result:
+        speak("Opening Matches for FiFa World Cup, Master!")
+        webbrowser.open("https://www.google.com/search?sca_esv=96b74448a0106665&hl=en&sxsrf=ANbL-n4Jbc2MLyd46wfhVzucqFiQgAzYdg:1781366910792&q=FIFA+World+Cup+2026+today&spell=1&sa=X&ved=2ahUKEwivtLrvzISVAxXnCTQIHVbZBQ4QBSgAegQIEBAB&biw=768&bih=826&dpr=1.25")
 
     elif ("open vs code") in result:
         speak("Opening vs code, Master!")
